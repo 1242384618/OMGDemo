@@ -1,0 +1,235 @@
+/*首页样式设置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (width:375px){
+    .container
+    {
+        width: 100%;
+        height: auto;
+    }
+    .right-project{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (width:760px){
+    .container
+    {
+        width: 100%;
+        height: auto;
+    }
+    .right-project{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (width:1200px){
+    .container
+    {
+        width: 100%;
+        height: auto;
+    }
+    .right-project{
+        width: 100%;
+        height: 100%;
+    }
+}
+body{
+    min-width: 370px;
+    max-width: 1200px;
+    margin: 0 auto!important;
+    font-weight: 400;
+    font-size: 3px;
+    font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    line-height: 1.5;
+    color: #333;
+    word-wrap: break-word;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/250bfd849a845b0f6fee284c6e4e27c8.jpg") no-repeat center;
+    background-size: cover;
+    z-index: -10;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background:url("../images/f9d0487d871661b3f67418f6a526654d.png") no-repeat center;
+    z-index: -10;
+    background-size: cover;
+}
+.header-into{
+    width: 60%;
+    height: 63px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 490px;
+}
+.unshow {
+    display: none;
+}
+.header-btn {
+    width: 100%;
+    height: 100%;
+    background: url("../images/7f48796a1f538879c092e4862ecb9f5b.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.answer{
+    width:100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:36px;
+}
+
+.progress{
+    width:75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.right-project{
+    width: 75%;
+    height: 393px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subject{
+    width:100%;
+    height: 100%;
+    background: url("../images/2dfb1867435969b478274e83ff88a907.png") no-repeat center bottom;
+    margin-top:12px;
+    background-size: cover;
+    color:#fff;
+    padding-bottom: .8rem;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    border: 0.3rem solid #060745;
+}
+.subject-box{
+    border-radius: 2.5rem;
+    width: 100%;
+    height: 374px;
+    background-color: #636df8;
+    padding-bottom: .36rem;
+    box-sizing: border-box;
+    padding-top: .48rem;
+    overflow: hidden;
+    padding-bottom: .48rem;
+}
+.several-into {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.several{
+    width: 100%;
+    height:30px;
+    background: url("../images/2d8166e492022912b3322bed872ee5ec.png") no-repeat center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: .51rem;
+    line-height: 1.9rem;
+    font-size: 1.3378rem;
+}
+.header-title{
+    color: white;
+    font-size: 18px;
+
+
+}
+.option{
+    width: 100%;
+    height: 242px;
+    background-color: #4336f7;
+    border-radius: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 17px 18px;
+    box-sizing: border-box;
+    font-size: 1.3202rem;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.oplast{
+    float: left;
+    width: 8%;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 12px;
+}
+.opsize{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin:10px auto;
+    padding: 5px;
+    font-size: 16px;
+    word-break: break-all;
+}
+/*.opbox{*/
+    /*float: left;*/
+    /*width: 50%;*/
+/*}*/
+/*.oplast > div:nth-child(2n-1) {*/
+    /*float: left;*/
+    /*width: 1.28rem;*/
+    /*height:0.27rem;*/
+    /*margin-right: 0.22rem;*/
+    /*margin-bottom: 0.28rem;*/
+/*}*/
+/*.oplast > div:nth-child(2n) {*/
+    /*vertical-align: middle;*/
+    /*margin-bottom: .2rem;*/
+    /*font-size: .32rem;*/
+/*}*/
+.next-btn{
+    width: 52%;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.86rem;
+}
+.next {
+    width: 100%;
+    height: 100%;
+    background: url(../images/618b65fa863cacdca024dc176ec60995.png) no-repeat center bottom;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
